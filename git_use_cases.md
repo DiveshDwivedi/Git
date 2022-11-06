@@ -47,7 +47,7 @@ Change commit message in local.
 Replace the last commit with the staged changes and last commit combined. Use with nothing staged to edit the 
 last commit’s message
 
-### git remote add <name> <url> Or git remote add origin <url_or_ssh>
+### git remote add origin <url_or_ssh>
 
 Create a new connection to a remote repo. After adding a remote, 
 you can use <name> as a shortcut for <url> in other commands.
