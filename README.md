@@ -127,7 +127,7 @@ To discard all recent change in working directory.
 ### git checkout master && git pull 
 
 Switch on master branch and pull once. 
-Change branch as per need
+Change branch name as your need.
 
 ### git clone <repository_url>
 
