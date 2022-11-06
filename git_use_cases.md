@@ -32,11 +32,11 @@ To stage specific <file> for commit.
 Add all changes in <directory> to stagged at once for the next commit.
 All changes are stagged for commit. 
 
-### git commit -m "<message>"
+### git commit -m <"message">
 
 Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
 
-Replace "<message>" with "commit message".
+Replace <"message"> with "commit message".
 
 Commit message should follow related task or change.
 
@@ -127,7 +127,7 @@ To discard all recent change in working directory.
 ### git checkout master && git pull 
 
 Switch on master branch and pull once. 
-Change branch as per need
+Change branch as your need.
 
 ### git clone <repository_url>
 
