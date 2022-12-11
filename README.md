@@ -139,3 +139,11 @@ Clone remote repository into your local.
 ### git fetch
 
 Get all the updates from the remote repository, including new branches.
+  
+### git remote
+  
+It will give the name of the remote repository  e.g, "origin" or "upstream".
+  
+### git remote -v 
+  
+It will give the name as well as the url of the remote repository.
