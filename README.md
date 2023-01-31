@@ -21,7 +21,7 @@ List of all changes in local which files are staged, unstaged, and untracked.
 Show unstaged changes between your index and working directory.
 It helpfull to see whats new changes performed, by compairing to older.
 
-### git add <directory>
+### git add <"directory">
 
 Stage all changes in <directory> for the next commit. 
 Replace <directory> with a <file> to change a specific file.
