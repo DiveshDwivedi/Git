@@ -29,12 +29,12 @@ To stage specific <"file"> for commit.
 
 ### git add .
 
-Add all changes in <directory> to stagged at once for the next commit.
+Add all changes in <"directory"> to stagged at once for the next commit.
 All changes are stagged for commit. 
 
 ### git commit -m <"message">
 
-Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
+Commit the staged snapshot, but instead of launching a text editor, use <"message"> as the commit message.
 
 Replace <"message"> with "commit message".
 
@@ -50,7 +50,7 @@ last commit’s message
 ### git remote add origin <url_or_ssh>
 
 Create a new connection to a remote repo. After adding a remote, 
-you can use <name> as a shortcut for <url> in other commands.
+you can use <"name"> as a shortcut for <"url"> in other commands.
 
 Create a new Repo on remote and connect with local. 
 
@@ -82,11 +82,11 @@ To delete branch named <branch_name>.
 
 ### git push origin --delete <remote_branch_name> or git push <remote_name> : <remote_branch_name>
 
-Delete branch named <remote_branch_name> from remote.
+Delete branch named <"remote_branch_name"> from remote.
 
 ### git push origin <branch_name> or git push --set-upstream orign <branch_name>
 
-Push the branch to <remote>, along with necessary commits and objects. Creates named branch in the remote repo if it doesn’t exist.
+Push the branch to <"remote">, along with necessary commits and objects. Creates named branch in the remote repo if it doesn’t exist.
 
 ### git pull 
 
@@ -136,9 +136,9 @@ Delete the most recent local commit if not pushed, keeping the work you've done.
 Switch on master branch and pull once. 
 Change branch name as your need.
 
-### git clone <repository_url>
+### git clone <"repository_url">
 
-Clone repo located at <repo> onto local machine. Original repo can be 
+Clone repo located at <"repo"> onto local machine. Original repo can be 
 located on the local filesystem or on a remote machine via HTTP or SSH.
 
 Clone remote repository into your local.
