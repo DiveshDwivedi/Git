@@ -98,7 +98,11 @@ Let's say you are on local/master, and run this command, git will fetch commits 
 
 ### git stash
 
-If some change don't want to commit but keep changes for future use(commit).
+If some change (codes) don't want to commit but keep changes for future use(commit).
+
+### git stash -u 
+
+If some change (adding newFile) don't want to commit but keep changes for future use(commit).
 
 ### git stash push <paths_you_wish_to_stash>
 
@@ -123,6 +127,9 @@ Reset staging area and working directory to match most recent commit and overwri
 
 To discard all recent change in working directory.
 
+### git reset --soft
+
+Delete the most recent local commit if not pushed, keeping the work you've done.
 
 ### git checkout master && git pull 
 
