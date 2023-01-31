@@ -23,9 +23,9 @@ It helpfull to see whats new changes performed, by compairing to older.
 
 ### git add <"directory">
 
-Stage all changes in <directory> for the next commit. 
-Replace <directory> with a <file> to change a specific file.
-To stage specific <file> for commit.
+Stage all changes in <"directory"> for the next commit. 
+Replace <"directory"> with a <"file"> to change a specific file.
+To stage specific <"file"> for commit.
 
 ### git add .
 
